@@ -1,0 +1,121 @@
+/* General*/
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header img {
+    width: 150px;
+    /*margin-left: 20px;*/
+}
+
+.row {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #F2A340;
+    border: 2px solid #C28008;
+}
+
+.btn-primary:hover {
+    background-color: #C28008;
+    border-color: #C28008;
+}
+
+/* navbar */
+
+#navbar a {
+    font-size: 16px;
+    color: #757575;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    color: #F2A340;
+}
+
+/* Search Container */
+
+#search-container {
+    background-image: url('../img/head.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1 {
+    color: #F2A340;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+#search-container form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#sub-title .info {
+    margin: 50px;
+}
+
+#sub-title h2 {
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+#sub-title .subtitle {
+    color: #757575;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.cards {
+    margin: 12px;
+}
+
+.cards img {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cards .card-date {
+    font-size: 12px;
+    color: #CCC;
+}
+
+.cards .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card-participants {
+    font-size: 14px;
+    color: #757575;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #353E48;
+    color: #FFF;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
